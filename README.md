@@ -24,7 +24,7 @@ This policy must have the following parameters:
 - System must remember the 5 last passwords
 - An account must be locked after 5 invalid logons
 - The counter of invalid logon must be reinitialized after one hour.
-- 
+  
 All IT admins have a classic account and an account with administrative permissions.
 The previous mustn’t apply on this administrator’s accounts and you must configure a password
 policy for these accounts:
@@ -58,7 +58,6 @@ Your policy must meet the following requirements:
 - Prevent user to adding printers
 - Disable access to control panel, command prompt. Also disable the ability to open task manager with Ctrl + Alt + del
 - You must prevent users to plug USB devices
-- Publish the administration shared folder as network drive
 - Configure folder options to show the file extension
 - Configure IE settings to force the home page
 
