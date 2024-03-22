@@ -4,6 +4,8 @@ https://gpsearch.azurewebsites.net/
 
 https://learn.microsoft.com/en-us/troubleshoot/windows-server/group-policy/applying-group-policy-troubleshooting-guidance
 
+https://support.microsoft.com/fr-fr/topic/ms16-072-mise-%C3%A0-jour-de-s%C3%A9curit%C3%A9-pour-la-strat%C3%A9gie-de-groupe-dat%C3%A9e-du-14-juin-2016-7570425d-d460-3003-b2ac-a464c874725d
+
 https://www.antrimohamed.fr/wp-content/uploads/2014/04/Djoin/Offline-domain-Join.pdf
 
 # Group Policy 
