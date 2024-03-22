@@ -1,3 +1,7 @@
+# Powershell
+
+https://github.com/jonathan-syd/learn/pwsh
+
 # Liens utiles 
 
 https://gpsearch.azurewebsites.net/
