@@ -1,6 +1,15 @@
+### Activation du Parefeu pour la gestion des logs
+
 Enable-NetFireWallRule -DisplayName "Windows Management Instrumentation (DCOM-In)"
 Enable-NetFireWallRule -DisplayGroup "Remote Event Log Management"
-Enable-NetFireWallRule -DisplayGroup "Remote Service Management"
-Enable-NetFireWallRule -DisplayGroup "Remote Volume Management"
-Enable-NetFireWallRule -DisplayGroup "Remote Scheduled Tasks Management"
-Enable-NetFireWallRule -DisplayGroup "Windows Firewall Remote Management"
+
+
+### Filtre XML pour voir les utilisateurs dans le journal de sécurité
+
+<QueryList>
+<Query Id="0">
+<Select Path="Security">
+*[EventData[Data[@Name='SubjectUserName'] and (Data='test9')]]
+</Select>
+</Query>
+</QueryList>
