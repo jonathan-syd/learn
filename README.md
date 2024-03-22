@@ -1,6 +1,6 @@
 # Powershell
 
-https://github.com/jonathan-syd/learn/pwsh
+[https://github.com/jonathan-syd/learn/pwsh](https://github.com/jonathan-syd/learn/blob/main/pwsh)
 
 # Liens utiles 
 
