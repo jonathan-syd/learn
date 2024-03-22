@@ -12,6 +12,8 @@ https://support.microsoft.com/fr-fr/topic/ms16-072-mise-%C3%A0-jour-de-s%C3%A9cu
 
 https://www.antrimohamed.fr/wp-content/uploads/2014/04/Djoin/Offline-domain-Join.pdf
 
+https://community.spiceworks.com/t/add-a-network-location-via-powershell/722383/3
+
 # Group Policy 
 
 ## 1.0 SECURITY GPO
