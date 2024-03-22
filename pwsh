@@ -13,3 +13,11 @@ Enable-NetFireWallRule -DisplayGroup "Remote Event Log Management"
 </Select>
 </Query>
 </QueryList>
+
+<QueryList> 
+<Query Id="0" Path="Security"> 
+<Select Path="Security"> 
+*[ EventData[Data[@Name='TargetUserName']='amari'] and System[(EventID='4624')] ] 
+</Select> 
+</Query> 
+</QueryList>
