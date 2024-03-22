@@ -44,7 +44,7 @@ have to be sure the policy that modifies firewall rules only apply on Windows 11
 This rule must allow outbound FTP connection on port 21.
   
 In another hand you have a group of Administrative users that use an accounting software. You note that this software write many application logs that take too much space on the accounting
-computers. Use a policy that modifies the maximum size of application log and that only applies on users that are member of the accounting group
+computers. Use a policy that modifies the maximum size of application log and that only applies on users that are member of the IT group
 
 ## 1.2 GPO PARAMETERS
 
