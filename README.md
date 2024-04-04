@@ -95,3 +95,7 @@ Configurer le service de mise à jour afin que les PC Windows se mettent à jour
 ## 1.6 Déploiement Applicatif
 
 Déployer Notepad++ sur les postes de travail
+
+
+
+HKLM\SOFTWARE\WOW6432Node\Hewlett-Packard\HPActiveSupport\HPHC
