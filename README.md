@@ -2,6 +2,10 @@
 
 jonathan.marcheix@syd.fr
 
+# LABS 
+
+https://lms.godeploy.it/
+
 # Powershell
 
 [https://github.com/jonathan-syd/learn/pwsh](https://github.com/jonathan-syd/learn/blob/main/pwsh)
