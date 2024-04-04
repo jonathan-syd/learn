@@ -99,3 +99,5 @@ Déployer Notepad++ sur les postes de travail
 
 
 HKLM\SOFTWARE\WOW6432Node\Hewlett-Packard\HPActiveSupport\HPHC
+
+https://support.mozilla.org/en-US/kb/make-firefox-enterprise-default-browser
