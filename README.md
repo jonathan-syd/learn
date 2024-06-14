@@ -22,26 +22,28 @@ https://www.antrimohamed.fr/wp-content/uploads/2014/04/Djoin/Offline-domain-Join
 
 https://community.spiceworks.com/t/add-a-network-location-via-powershell/722383/3
 
+https://support.mozilla.org/en-US/kb/make-firefox-enterprise-default-browser
+
 # Group Policy 
 
 ## 1.0 SECURITY GPO
 
 Vous devez configurer une GPO (stratégie de groupe) qui s’appliquera à tous les domaines de l’entreprise. Cette GPO constitue la principale politique de sécurité des comptes dans l’entreprise. Cette politique doit respecter les paramètres suivants :
 
-Longueur du mot de passe : 6 caractères
-Durée de validité maximale du mot de passe : 90 jours
-Le système doit se souvenir des 5 derniers mots de passe utilisés
-Un compte doit être verrouillé après 5 tentatives de connexion infructueuses
-Le compteur des tentatives de connexion infructueuses doit être réinitialisé après une heure.
+- Longueur du mot de passe : 6 caractères
+- Durée de validité maximale du mot de passe : 90 jours
+- Le système doit se souvenir des 5 derniers mots de passe utilisés
+- Un compte doit être verrouillé après 5 tentatives de connexion infructueuses
+- Le compteur des tentatives de connexion infructueuses doit être réinitialisé après une heure.
 
 Toutefois, les administrateurs informatiques disposent d’un compte classique et d’un compte avec des permissions administratives. Les règles précédentes ne doivent pas s’appliquer aux comptes des administrateurs. 
 Vous devez également configurer une politique de mot de passe spécifique pour ces comptes administratifs :
 
-Longueur du mot de passe : 8 caractères
-Durée de validité maximale du mot de passe : 30 jours
-Le système doit se souvenir des 10 derniers mots de passe utilisés
-Un compte doit être verrouillé après 3 tentatives de connexion infructueuses
-Le compteur des tentatives de connexion infructueuses doit être réinitialisé après 4 heures
+- Longueur du mot de passe : 8 caractères
+- Durée de validité maximale du mot de passe : 30 jours
+- Le système doit se souvenir des 10 derniers mots de passe utilisés
+- Un compte doit être verrouillé après 3 tentatives de connexion infructueuses
+- Le compteur des tentatives de connexion infructueuses doit être réinitialisé après 4 heures
 
 
 ## 1.1 GPO FILTERING
@@ -94,8 +96,3 @@ Configurer le service de mise à jour afin que les PC Windows se mettent à jour
 
 Déployer Notepad++ sur les postes de travail
 
-
-
-HKLM\SOFTWARE\WOW6432Node\Hewlett-Packard\HPActiveSupport\HPHC
-
-https://support.mozilla.org/en-US/kb/make-firefox-enterprise-default-browser
