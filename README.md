@@ -30,7 +30,7 @@ https://support.mozilla.org/en-US/kb/make-firefox-enterprise-default-browser
 
 Vous devez configurer une GPO (stratégie de groupe) qui s’appliquera à tous les domaines de l’entreprise. Cette GPO constitue la principale politique de sécurité des comptes dans l’entreprise. Cette politique doit respecter les paramètres suivants :
 
-- Longueur du mot de passe : 6 caractères
+- Longueur minimale du mot de passe : 6 caractères
 - Durée de validité maximale du mot de passe : 90 jours
 - Le système doit se souvenir des 5 derniers mots de passe utilisés
 - Un compte doit être verrouillé après 5 tentatives de connexion infructueuses
@@ -39,7 +39,7 @@ Vous devez configurer une GPO (stratégie de groupe) qui s’appliquera à tous 
 Toutefois, les administrateurs informatiques disposent d’un compte classique et d’un compte avec des permissions administratives. Les règles précédentes ne doivent pas s’appliquer aux comptes des administrateurs. 
 Vous devez également configurer une politique de mot de passe spécifique pour ces comptes administratifs :
 
-- Longueur du mot de passe : 8 caractères
+- Longueur minimale du mot de passe : 8 caractères
 - Durée de validité maximale du mot de passe : 30 jours
 - Le système doit se souvenir des 10 derniers mots de passe utilisés
 - Un compte doit être verrouillé après 3 tentatives de connexion infructueuses
