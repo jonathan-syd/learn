@@ -26,40 +26,38 @@ https://community.spiceworks.com/t/add-a-network-location-via-powershell/722383/
 
 ## 1.0 SECURITY GPO
 
-You have to configure a GPO that will apply on all company domains.
-This GPO is the main policy for account’s security in the company.
-This policy must have the following parameters:
-- Length : 6 characters
-- Age maximum : 90 days
-- System must remember the 5 last passwords
-- An account must be locked after 5 invalid logons
-- The counter of invalid logon must be reinitialized after one hour.
-  
-All IT admins have a classic account and an account with administrative permissions.
-The previous mustn’t apply on this administrator’s accounts and you must configure a password
-policy for these accounts:
-- Length : 8 characters
-- Age maximum : 30 days
-- System must remember the 10 last passwords
-- An account must be locked after 3 invalid logons
-- The counter of invalid logon must be reinitialized after 4 hour.
+Vous devez configurer une GPO (stratégie de groupe) qui s’appliquera à tous les domaines de l’entreprise. Cette GPO constitue la principale politique de sécurité des comptes dans l’entreprise. Cette politique doit respecter les paramètres suivants :
+
+Longueur du mot de passe : 6 caractères
+Durée de validité maximale du mot de passe : 90 jours
+Le système doit se souvenir des 5 derniers mots de passe utilisés
+Un compte doit être verrouillé après 5 tentatives de connexion infructueuses
+Le compteur des tentatives de connexion infructueuses doit être réinitialisé après une heure.
+
+Toutefois, les administrateurs informatiques disposent d’un compte classique et d’un compte avec des permissions administratives. Les règles précédentes ne doivent pas s’appliquer aux comptes des administrateurs. 
+Vous devez également configurer une politique de mot de passe spécifique pour ces comptes administratifs :
+
+Longueur du mot de passe : 8 caractères
+Durée de validité maximale du mot de passe : 30 jours
+Le système doit se souvenir des 10 derniers mots de passe utilisés
+Un compte doit être verrouillé après 3 tentatives de connexion infructueuses
+Le compteur des tentatives de connexion infructueuses doit être réinitialisé après 4 heures
 
 
 ## 1.1 GPO FILTERING
 
-Reporters’ computers are heterogeneous. Some reporters have Windows 11 but others have
-Windows 7.
-You have to apply an outbound firewall rules but outbound rules don’t exist on Windows 7. You
-have to be sure the policy that modifies firewall rules only apply on Windows 11 computers.
-This rule must allow outbound FTP connection on port 21.
-  
-In another hand you have a group of Administrative users that use an accounting software. You note that this software write many application logs that take too much space on the accounting
-computers. Use a policy that modifies the maximum size of application log and that only applies on users that are member of the IT group
+Les ordinateurs des journalistes sont hétérogènes. Certains journalistes utilisent Windows 11, tandis que d’autres utilisent Windows 7.
+
+Vous devez appliquer des règles de pare-feu sortant, mais les règles sortantes n’existent pas sur Windows 7. Vous devez vous assurer que la stratégie qui modifie les règles de pare-feu s’applique uniquement aux ordinateurs Windows 11.
+
+Cette règle doit autoriser les connexions FTP sortantes sur le port 21.
+
+D’autre part, vous avez un groupe d’utilisateurs administratifs qui utilisent un logiciel de comptabilité. Vous constatez que ce logiciel génère de nombreux journaux d’application qui occupent trop d’espace sur les ordinateurs de comptabilité. Utilisez une stratégie qui modifie la taille maximale des journaux d’application et qui s’applique uniquement aux utilisateurs membres du groupe administratifs.
 
 ## 1.2 GPO PARAMETERS
 
-You have security GPO for all employees. You now have to configure the common parameter for
-people of Administration.
+Vous avez des stratégies de groupe de sécurité pour tous les employés. Vous devez maintenant configurer le paramètre commun pour les personnes de l’Administration.
+
 Your policy must meet the following requirements:
 - Apply the wallactus.png wallpaper
 - Disable the possibility to change the wallpaper
@@ -73,13 +71,13 @@ Your policy must meet the following requirements:
 
 ## 1.3 Advanced Configuration
 
-You have a computer that is used by visitors in the reception room.
-You have to secure this computer:
-- No access to control panel
-- No access to task bar configuration
-- No access to desktop icon
-- When a user logon a script run internet explorer
-You have to be sure that if a company user uses this computer their policies are not applied to this computer
+Vous avez un ordinateur utilisé par les visiteurs dans la salle de réception. Vous devez sécuriser cet ordinateur :
+
+Pas d’accès au panneau de configuration
+Pas d’accès à la configuration de la barre des tâches
+Pas d’accès à l’icône du bureau
+
+Lorsqu’un utilisateur se connecte, un script exécute Internet Explorer Vous devez vous assurer que si un utilisateur de l’entreprise utilise cet ordinateur, ses politiques ne s’appliquent pas à cet ordinateur
 
 
 ## 1.4 Network Drive
