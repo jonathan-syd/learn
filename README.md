@@ -26,6 +26,9 @@ https://support.mozilla.org/en-US/kb/make-firefox-enterprise-default-browser
 
 https://www.dannymoran.com/wmi-filter-cheat-sheet/
 
+ROle FSMO : `regsvr32 schmmgmt.dll` (pour le schéma)
+
+
 # Group Policy 
 
 ## 1.0 SECURITY GPO
