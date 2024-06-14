@@ -24,6 +24,8 @@ https://community.spiceworks.com/t/add-a-network-location-via-powershell/722383/
 
 https://support.mozilla.org/en-US/kb/make-firefox-enterprise-default-browser
 
+https://www.dannymoran.com/wmi-filter-cheat-sheet/
+
 # Group Policy 
 
 ## 1.0 SECURITY GPO
