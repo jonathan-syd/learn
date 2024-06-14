@@ -28,6 +28,7 @@ https://www.dannymoran.com/wmi-filter-cheat-sheet/
 
 ### Role FSMO : 
 `netdom /query:fsmo`
+
 Pour accéder au schéma : `regsvr32 schmmgmt.dll`
 
 
