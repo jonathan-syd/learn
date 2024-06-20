@@ -26,6 +26,9 @@ https://support.mozilla.org/en-US/kb/make-firefox-enterprise-default-browser
 
 https://www.dannymoran.com/wmi-filter-cheat-sheet/
 
+Déploiement script avec SCCM : https://learn.microsoft.com/fr-fr/mem/configmgr/apps/deploy-use/create-deploy-scripts
+
+
 ### Role FSMO : 
 `netdom /query:fsmo`
 
