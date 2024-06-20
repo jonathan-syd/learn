@@ -81,13 +81,16 @@ Your policy must meet the following requirements:
 
 ## 1.3 Advanced Configuration
 
-Vous avez un ordinateur utilisé par les visiteurs dans la salle de réception. Vous devez sécuriser cet ordinateur :
+Vous avez un ordinateur utilisé par les visiteurs dans la salle de réception (sur le sous-réseau 192.168.0.0/24). Vous devez sécuriser cet ordinateur :
 
 Pas d’accès au panneau de configuration
+
 Pas d’accès à la configuration de la barre des tâches
+
 Pas d’accès à l’icône du bureau
 
-Lorsqu’un utilisateur se connecte, un script exécute Internet Explorer Vous devez vous assurer que si un utilisateur de l’entreprise utilise cet ordinateur, ses politiques ne s’appliquent pas à cet ordinateur
+
+Lorsqu’un utilisateur se connecte, un script exécute Internet Explorer. Vous devez vous assurer que si un utilisateur de l’entreprise utilise cet ordinateur, ses politiques ne s’appliquent pas à cet ordinateur
 
 
 ## 1.4 Network Drive
