@@ -99,7 +99,9 @@ Lorsqu’un utilisateur se connecte, un script exécute Internet Explorer. Vous 
 ## 1.4 Network Drive
 
 Créer un partage de fichier NTFS sur le serveur Active Directory
+
 Faites en sorte de monter ce partage réseau sur les PC Windows, sur la lettre W.
+
 Utilisez le système intégré aux GPO, puis faites la même chose avec un script (CMD ou Powershell)
 
 ## 1.5 Windows Update
