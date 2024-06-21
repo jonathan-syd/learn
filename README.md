@@ -120,6 +120,7 @@ Configurer le navigateur (si possible) :
 - Changement de la page d'accueil
 - Modification du moteur de recherche pas défaut (mettre Qwant)
 - Suppression des autres moteurs de recherche
+- Suppression de la navigation privée
 - Activation de l'autocomplétion pour les méthodes de paiements
   
 
