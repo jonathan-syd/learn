@@ -114,7 +114,7 @@ Déployer Notepad++ sur les postes de travail
 
 ## 1.7 Déploiement et configuration de Firefox
 
-Déployer le navigateur Firefox
+Déployer le navigateur Firefox (sur tous les postes et pour tous les utilisateurs
 
 Configurer le navigateur (si possible) : 
 - Changement de la page d'accueil
