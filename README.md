@@ -106,7 +106,7 @@ Utilisez le système intégré aux GPO, puis faites la même chose avec un scrip
 
 ## 1.5 Windows Update
 
-Configurer le service de mise à jour afin que les PC Windows se mettent à jour le plusrapidement possible, en dehors des heures de travail
+Configurer le service de mise à jour afin que les PC Windows se mettent à jour le plus rapidement possible, en dehors des heures de travail
 
 ## 1.6 Déploiement Applicatif
 
