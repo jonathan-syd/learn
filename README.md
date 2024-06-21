@@ -112,3 +112,13 @@ Configurer le service de mise à jour afin que les PC Windows se mettent à jour
 
 Déployer Notepad++ sur les postes de travail
 
+## 1.7 Déploiement et configuration de Firefox
+
+Déployer le navigateur Firefox
+
+Configurer le navigateur (si possible) : 
+- Changement de la page d'accueil
+- Modification du moteur de recherche pas défaut (mettre Qwant)
+- Suppression des autres moteurs de recherche
+- 
+
