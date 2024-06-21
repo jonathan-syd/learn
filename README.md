@@ -120,5 +120,5 @@ Configurer le navigateur (si possible) :
 - Changement de la page d'accueil
 - Modification du moteur de recherche pas défaut (mettre Qwant)
 - Suppression des autres moteurs de recherche
-- 
+  
 
